@@ -74,16 +74,11 @@ using namespace std;
                     cout << "Message sending failed.\n" << endl;
                 }
 
-                // connectionHandler.sendLine(line) appends ';' to the message. Therefor we send len+1 bytes.
-//            cout << "Sent " << len+1 << " bytes to server" << endl;
+
             }
         });
 
-
-//        this_thread::sleep_for(std::chrono::milliseconds (200));
-//        cout<<"terminate: "<<shouldTerminate;     //////////////////////////////////////////
         while (!(*shouldTerminate)) {          //reading loop
-//            cout<<"terminate fucker: "<<*shouldTerminate;         ///////////////////////////////////////////////////
             string answer;
 
             // Get back an answer: by using the expected number of bytes (len bytes + newline delimiter)
@@ -95,9 +90,7 @@ using namespace std;
             else
                 output = answer;
             fal = encdec.decode(output);
-            //cout<<"CLIENT READS: "<<output<<endl;
-            cout<<"YAELI HAS: 350K FOLLOWER - INFLUENCER!"<<endl;
-
+            cout<<"CLIENT READS: "<<output<<endl;
             answer.clear();
             //////////////////////////////////////////
 //            char const *c = answer.c_str();

@@ -12,7 +12,15 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d96db50b-4799-4bf8-b52b-43be5fa9f701" name="Changes" comment="" />
+    <list default="true" id="d96db50b-4799-4bf8-b52b-43be5fa9f701" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Client.o" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Client.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/EncoderDecoder.o" beforeDir="false" afterPath="$PROJECT_DIR$/bin/EncoderDecoder.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/connectionHandler.o" beforeDir="false" afterPath="$PROJECT_DIR$/bin/connectionHandler.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run" beforeDir="false" afterPath="$PROJECT_DIR$/run" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EncoderDecoder.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/EncoderDecoder.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,14 +50,21 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/makefile" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="Unnamed" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" nameIsGenerated="true">
+      <makefile filename="$PROJECT_DIR$/makefile" target="" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -63,6 +78,7 @@
       <workItem from="1641413444747" duration="801000" />
       <workItem from="1641414289205" duration="85000" />
       <workItem from="1641414407686" duration="1000" />
+      <workItem from="1641466410064" duration="3414000" />
     </task>
     <servers />
   </component>

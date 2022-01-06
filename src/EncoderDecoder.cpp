@@ -92,7 +92,7 @@ string EncoderDecoder::encodeRegister(string input){
     }
     string birthday = input.substr(indexStart , curr - indexStart);
     string output = opcode[1]+username+nullzero+password+nullzero+birthday+nullzero+coma;
-cout<<"ENCODED INPUT: "<<output<<endl;
+//cout<<"ENCODED INPUT: "<<output<<endl;
 return output;
 }
 
@@ -259,3 +259,11 @@ string EncoderDecoder::getDateAndTime(){
     return str;
 }
 
+/**
+*
+ * REGISTER e 123 11.11.1111
+ * REGISTER e 11 11.11.1111
+ * LOGIN e 11 1
+ * LOGIN e 123 1
+ *
+*/
